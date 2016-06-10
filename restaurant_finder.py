@@ -21,8 +21,7 @@ def locusearch(city, region, zipp, category):
 	for item in data['objects']:
 		s+=item['name']+ " " +item['phone'] + "\n"
 	client.messages.create(
-		from_="+12155844319",
-		to="(609) 462-4702", 
+		from_="twilio number",
+		to="your number", 
 		body=s
 	)
-locusearch('San Jose', 'CA', '95135', 'restaurant')
