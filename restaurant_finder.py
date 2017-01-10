@@ -25,3 +25,5 @@ def locusearch(city, region, zipp, category):
 		to="your number", 
 		body=s
 	)
+def function():
+	pass
