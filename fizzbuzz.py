@@ -7,3 +7,8 @@ for i in range(1,101):
 		print 'buzz'
 	else:
 		print i
+
+def add(a,b):
+	print a+b
+
+add(3,2)
